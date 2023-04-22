@@ -10,11 +10,13 @@ $motivo_form = $_POST['motivo'];
 $mensaje_form = $_POST['mensaje'];
 
 //server //usuario //contraseña //nombre base datos
-$datos_db = mysqli_connect('localhost', 'root', 'po92ke14', 'phpintermedio') or exit ('No se puede conectar con la base de datos'); 
+// $datos_db = mysqli_connect('localhost', 'root', 'po92ke14', 'phpintermedio') or exit ('No se puede conectar con la base de datos'); 
+
+$datos_db = mysqli_connect("containers-us-west-188.railway.app", "root", "hZmqafXAN4cmT4i9HqLx", "railway")  or die("Error " . mysqli_error($conexion));
+
 
 mysqli_query($datos_db, "INSERT INTO consultas VALUES (DEFAULT, '$nombre_form', '$apellido_form', $edad_form,'$correo_form','$motivo_form','$mensaje_form');");
 
 mysqli_close($datos_db);
 
 header('Location: contacto.php?valorVuelta#contenido');
-?>
