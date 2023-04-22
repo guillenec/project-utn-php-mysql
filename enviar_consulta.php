@@ -10,7 +10,7 @@ $motivo_form = $_POST['motivo'];
 $mensaje_form = $_POST['mensaje'];
 
 //server //usuario //contraseña //nombre base datos
-$datos_db = mysqli_connect('containers-us-west-188.railway.app', 'root', 'hZmqafXAN4cmT4i9HqLx', 'railway') or exit('No se puede conectar con la base de datos');
+$datos_db = mysqli_connect('containers-us-west-188.railway.app:6668', 'root', 'hZmqafXAN4cmT4i9HqLx', 'railway') or exit('No se puede conectar con la base de datos');
 
 // $datos_db = mysqli_connect('localhost', 'root', 'po92ke14', 'phpintermedio') or exit ('No se puede conectar con la base de datos'); 
 
