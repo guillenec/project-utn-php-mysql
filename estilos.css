@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	box-sizing: border-box;
+	}
+/* ######################################
+## ACA INICIAN LOS ESTILOS DE PRUEBA ##
+###################################### */
+#contenido1 {
+	background-color: rgb(253, 243, 106);
+	height: auto;
+	position: relative;
+	padding:20px;
+	border-left: 20px solid rgb(253, 123, 106);	
+	}
+
+#contenido2 {
+		background-color: rgb(253, 123, 106);
+		height: 350px;
+		padding:20px;
+		border-left: 20px solid rgb(253, 243, 106);
+	}
+
+/*+------- INICIA CATALOGO -----+*/
+#imgProducto{
+	text-align: center;
+	margin-top: 25px;
+	width: 30%;
+	float: left;	
+}
+#imgProducto>img{
+width: 100%;
+border-radius: 32% 0%;
+}
+
+#infoProd{
+	margin-top: 25px;
+	margin-left: 40px;
+	padding: 40px;
+	width: 62%;
+	height: 270px;
+	background-color: rgb(245, 136, 117);
+	box-sizing: border-box;
+	float: left;
+	border-radius: 32% 0%;
+	border: thin solid rgb(253, 243, 106);
+}
+/*+------- FIN CATALOGO -----+*/
+
+/*+------- INICIA NOTICIAS -----+*/
+
+.cajaNoticia{
+	width: 350px;
+	height: auto;
+	box-sizing: border-box;
+	background-color:#c9d1c2;
+	border: solid thin #80C141;
+	margin: 5px;
+	display: inline-block;
+	font-family: sans-serif;
+	padding: 10px;
+	
+}
+#contenido.noticias{
+	text-align: center;
+	background-color: white;
+	height: auto;
+	box-sizing: border-box;
+}
+img#noticiaImg{
+	text-align: center;
+	align-content: center;
+	width: 400px;
+}
+img.noticiaImg{
+	text-align: center;
+	align-content: center;
+	width: 100%;
+}
+.cajaNoticia:hover{
+	opacity: 0.7;
+	cursor: pointer;
+	transition: all 0.5s linear;
+}
+/*+------- FIN NOTICIAS -----+*/
+
+/*+------- INICIA FORMULARIO -----+*/
+
+#contenido.formClientes{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	position: relative;
+	box-sizing: border-box;
+
+}
+.formClientes>h2{
+	margin-left: 20px;
+}
+
+#caja2_formulario{
+	margin: auto;
+	background-color: #80C141;
+	width: 70%;
+	margin-top: 20px ;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+input, select, textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	display: block;
+	padding: 10px;
+}
+input#registrar{ margin-bottom: 0px;}
+
+label {
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#registrar:hover{
+	background-color: #80C141;
+	color: white;
+}
+
+#msj_registro{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	background-color: #80C141;
+	text-align: center;
+	box-sizing: border-box;
+}
+#msj_registro>h4{
+		color: white;
+		font-family: 'Luckiest Guy', cursive;
+		padding: 15px;
+		font-size: 20px;
+}
+/*+------- FIN FORMULARIO -----+*/
+
+/*+------- INICIA CLIENTES -----+*/
+
+#contenido.clientes {
+	padding:0px;
+	width: 100%;
+	border-left: 20px solid #80C141;
+	position: relative;
+	height: auto;
+}
+#contenido.clientes>h2{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	border-bottom: solid 3px #80C141;
+}
+
+#cajaCliente{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+#cajaCliente>h2{
+	margin-top: 0;
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+#pedidos_cliente{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+}
+
+.productos{
+	border: solid 3px #80C141;
+	background-color: #CD9C4F;
+	box-sizing: border-box;
+	width: 300px;
+	position: relative;
+	margin: 10px;	
+	padding: 5px;
+	display: inline-block;
+}
+
+.productos>h3{
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	background-color: #80C141;
+	position: relative;
+	color: #333;
+}
+
+.productos>p{
+	padding: 5px;
+	margin-top: 0;
+	color: #333;
+}
+
+/*+------- INICIA CLIENTES -----+*/
+
+/* ######################################
+## ACA TERMIANA LOS ESTILOS DE PRUEBA ##
+###################################### */
+
+
+header {
+	height:290px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:100%;
+	height:70px;
+	border-left: 20px solid #80C141;
+	background-color:#FFF;
+	box-sizing: border-box;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 187px;
+	height: 70px;
+	line-height: 70px;
+	
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#80C141;
+	color: white;
+	border-right:1px dotted white;
+	}
+	
+#marca {
+	background-image:url(./imagenes/fondo_marca.jpg);
+	height:200px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+	}
+
+#contenido {
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	position: relative;
+	height: auto;
+	box-sizing: border-box;
+	}
+
+h2 {
+	color:#666;}
+
+footer {
+	background-color:#80C141;
+	padding:20px;
+	border-left: 20px solid #333;
+	position: relative;
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+#contenedor {
+	width:580px;
+	}
+
+header {
+	height:290px;
+	}
+
+#botonera_principal {
+	width:100%;
+	height:140px;
+}
+
+#botonera_principal ul li a {
+	width: 185px;	
+	}
+
+
+/* ######################################
+## ACA INICIAN LOS ESTILOS DE PRUEBA ##
+###################################### */
+#contenido1 {
+	padding-bottom: 50px;
+	}
+
+#contenido2 {		
+		height: 400px;		
+	}
+
+/*	catalogoProds  */
+#imgProducto{
+	left: 0;
+	margin-top: 10px;
+	width: 35%;
+	float: left;	
+}
+#imgProducto>img{
+width: 100%;
+border-radius: 32% 0%;
+}
+
+#infoProd{
+	margin-left: 0px;
+	padding: 40px;
+	width: 62%;
+	height: 350px;
+	float: right;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+
+.zoom:hover {
+    transform: scale(1.3); 
+}
+
+/*--------------------
+hoy prueba 6
+--------------------
+*/
+
+#contenido.noticias{
+	text-align: center;
+	position: relative;
+	height: auto;
+	box-sizing: border-box;
+}
+img#noticiaImg{
+	text-align: center;
+	align-content: center;
+	width: 400px;
+}
+img.noticiaImg{
+	text-align: center;
+	align-content: center;
+	width: 100%;
+}
+
+.cajaNoticia{
+	position: relative;
+	width: 95%;
+	height: auto;
+	display: inline-block;
+	border: solid thin #80C141;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+
+/* ######################################
+## ACA TERMIANA LOS ESTILOS DE PRUEBA ##
+###################################### */	
+/*--------------------
+inicia formulario
+--------------------*/
+#contenido.formClientes{
+	width: 100%;
+}
+.formClientes>h2{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+#caja2_formulario{
+	width: 90%;
+}
+input, select, textarea {
+	width: 100%;
+	margin-top: 2px;
+	padding: 8px;
+}
+label {
+	font-size: 18px;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+
+#msj_registro{
+	width: 90%;
+	margin: auto;
+}
+
+/*--------------------
+    fin formulario
+--------------------*/
+/*+------- INICIA CLIENTES -----+*/
+
+#contenido.clientes {
+	width: 100%;
+}
+
+#cajaCliente{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+.productos{
+	width: 70%;
+}
+/*+------- INICIA CLIENTES -----+*/
+
+} /* fin media 600 a 1023px */
+
+@media all and (max-width: 599px) {
+
+#contenedor {
+	width:100%;
+	}
+
+header {
+	height:auto;
+	}
+
+#botonera_principal {
+	width:100%;
+	height:auto;
+	box-sizing: border-box;
+	}
+
+#botonera_principal ul li {
+	display: block;
+}
+
+#botonera_principal ul li a {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	}
+	
+
+/* ######################################
+## ACA INICIAN LOS ESTILOS DE PRUEBA ##
+###################################### */
+
+#contenido2 {		
+		height: 600px;		
+	}
+
+/*	catalogoProds  */
+#imgProducto{
+	left: 0;
+	margin-top: 10px;
+	width: 100%;
+	background-color: whitesmoke;
+	border: thin dotted rgb(253, 243, 106);
+}
+#imgProducto>img{
+width: 200px;
+border-radius: 5%;
+border: thin dotted rgb(253, 243, 106);
+}
+
+#infoProd{
+	margin-left: 0px;
+	padding: 40px;
+	width: 100%;
+	height: 350px;
+	border-radius: 5%;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+
+.zoom:hover {
+    transform: scale(1.3); 
+}
+
+/* ######################################
+## ACA TERMIANA LOS ESTILOS DE PRUEBA ##
+###################################### */	
+#contenido.noticias{
+	text-align: center;
+	height: auto;
+}
+img#noticiaImg{
+	
+	width: 100%;
+}
+img.noticiaImg{
+	
+	width:100%;
+}
+.cajaNoticia{
+	width: 100%;
+	height: auto;
+	border: solid thin #80C141;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 0;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+/*--------------------
+inicia formulario
+--------------------*/
+#contenido.formClientes{
+	width: 100%;
+}
+.formClientes>h2{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+#caja2_formulario{
+	width: 100%;
+}
+input, select, textarea {
+	width: 100%;
+	margin-top: 2px;
+	padding: 8px;
+}
+label {
+	font-size: 18px;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+
+
+#msj_registro{
+	width: 100%;
+	margin: auto;
+	background-color: #80C141;
+	text-align: center;
+	box-sizing: border-box;
+}
+#msj_registro>h4{
+		color: white;
+		font-family: 'Luckiest Guy', cursive;
+		padding: 20px;
+		font-size: 20px;
+}
+/*--------------------
+    fin formulario
+--------------------*/
+/*+------- INICIA CLIENTES -----+*/
+
+#contenido.clientes {
+	width: 100%;
+}
+
+#cajaCliente{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+.productos{
+	width: 90%;
+}
+
+/*+------- INICIA CLIENTES -----+*/
+
+
+} /* fin media -599px */
